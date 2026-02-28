@@ -1,0 +1,11 @@
+name: QA Check (23f3003316@ds.study.iitm.ac.in)
+on: [push]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup by 23f3003316@ds.study.iitm.ac.in
+      run: npm install
+    - run: npx playwright install --with-deps
+    - run: node scrape.js
