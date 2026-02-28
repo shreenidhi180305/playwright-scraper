@@ -1,1 +1,1 @@
-{"name":"scraper","version":"1.0.0","main":"scrape.js","dependencies":{"playwright":"latest"}}
+{"name":"scraper","version":"1.0.1","main":"scrape.js","dependencies":{"playwright":"latest"}}
